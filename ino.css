@@ -1,0 +1,596 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    
+}
+
+/*naaaav baaar 1 */
+nav
+{
+    width: 100%;
+    background: #212331 ;
+    color:#FFF;
+    text-align: center;
+    height: 44px;
+   
+}
+nav p
+{
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 14px;
+    
+    
+}
+.nav-one
+{
+    background: #eee;
+    width: 100%;
+    margin-top: -20;
+    height: 120;
+    
+   
+    
+}
+.nav-one p
+{
+   
+    float: left;
+    padding-top: 12;
+    padding-left: 50;
+    font-size: 30;
+    color: #000;
+    font-weight: bold;
+    
+   
+    
+}
+.clear
+{
+    clear: both;
+}
+
+.nav-one ul
+{
+    list-style: none;
+    margin-left: 215;
+    padding-top: 30
+        
+    
+}
+.nav-one ul li
+{
+    display: inline-block;
+    margin-left: 120px;
+   padding-top: 10;
+    
+}
+.nav-one ul li a
+{
+    text-decoration: none;
+    color: #e65c00;
+}
+.nav-one ul li i
+{
+    padding-right: 10px;
+    
+}
+ 
+
+/*maaaaiiiin*/
+
+
+main
+{
+   margin-top: -50
+    
+}
+
+
+main section.firstsection 
+{    height: 720;
+    background-image:url(images/cover.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+
+
+main section.firstsection p
+{
+    font-size: 40;
+    font-family:cursive;
+    padding-top: 120;
+    padding-left: 80
+}
+
+main section.firstsection h4
+{
+     padding-left: 260;
+    font-size: 30
+}
+main section.firstsection input
+{
+    width: 170;
+    padding: 15;
+    font-size: 18;
+    font-weight: bold;
+    background: #fff;
+    border-style: none;
+    color: #000;
+    margin-left: 275;
+    border-radius:40px;
+    cursor: pointer;
+    outline: none;
+    
+}
+main section.firstsection input:hover
+{
+    background: #e65c00;
+}
+main section.search
+{
+    background: #eee;
+    width: 100%;
+    height: 200px;
+    margin-top: -30;
+    color: #000099;
+    padding-top: 55;
+    text-align: center;
+    padding-bottom: 100px;
+}
+main section.search h2
+{
+    font-family: cursive;
+    font-size: 30;
+}
+main section.search form input
+{
+    border: none;
+    padding :20;
+    border-radius: 15px;
+    width: 230px;
+    outline: none;
+    margin: 15;
+    background: #d5d5d5;
+}
+main section.search form input[type=submit]
+{
+    background: #e65c00;
+    color: #fff;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+}
+main section.search form select
+{
+     border: none;
+    padding :20;
+    border-radius: 15px;
+    width: 230px;
+    outline: none;
+     background: #d5d5d5;
+    -webkit-appearance: none;
+    appearance: none;
+}
+    
+}
+
+
+main section.search form select option
+{
+    background: #eee;
+    padding: 20px;
+}
+
+
+
+
+main section.ourcourses
+{
+    width: 100%;
+    height: 660px;
+    text-align: center
+    margin-top: -20;
+   
+}
+main section.ourcourses h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color:#000099;
+}
+main section.ourcourses div
+{
+    display: inline-block;
+    padding: 10px;
+    width: 28%;
+    border: 1px solid #e65c00;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20
+    
+}
+
+main section.ourcourses div input
+{
+     background: #e65c00;
+    color: #fff;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+     border: none;
+    padding :15;
+    border-radius: 15px;
+    width: 150px;
+    outline: none;
+    margin-left:38;
+    margin-top: 18px;
+    margin-bottom: 20;
+    
+}
+main section.ourcourses div img
+{
+    padding-left: 90
+}
+main section.ourcourses div h2
+{
+    padding: 30;
+    color: #000099;
+    
+}
+main section.ourcourses div.one
+{
+   margin-left:30 
+}
+main section.ourcourses div ul 
+{
+    list-style-type: square 
+}
+main section.ourcourses div ul li
+{
+    font-size: 20;
+}
+
+
+/*inoledge kids*/
+
+main section.kids
+{
+    background: #eee;
+    width: 100%;
+    height: 1200;
+   
+}
+main section.kids h2
+{
+    color: #e65c00;
+    font-family: cursive;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+}
+main section.kids div.description
+{
+   
+    
+    width: 80%;
+    margin: auto;
+    border: 1px solid #000099;
+    border-radius: 20px;
+    height: 1080px;
+    
+    
+        
+    
+}
+
+main section.kids div.description .event h3
+{
+    color: #000099;
+    font-size: 24;
+    padding-left: 30px;
+    font-family: cursive;
+}
+
+main section.kids div.description .event p
+{
+    font-size: 18;
+    padding-left: 40px; 
+}
+main section.kids div.description .event span
+{
+   color: #000099;
+    font-size: 18;
+    font-weight: bold;
+    padding-left: 85px;
+
+}
+
+main section.kids div.description .event ul
+{
+    list-style: square;
+    padding-left: 50px;
+}
+main section.kids div.description .event ul li
+{
+    font-size: 18px;
+    margin-left: 50px;
+}
+main section.kids div.description .image
+{
+    float: right;
+    margin-top: -225px;
+    margin-right: 150px;
+    border: 1px solid #000099;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+main section.kids div.description .items
+{
+    text-align: center;
+   
+}
+
+main section.kids div.description .items img
+{
+    border: 1px solid #000099;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 8px;
+}
+main section.kids div.description .items img:hover
+{
+    opacity: .5;
+    cursor: pointer;
+}
+main section.kids div.description .items input
+{
+      background: #e65c00;
+    color: #fff;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+     border: none;
+    padding :15;
+    border-radius: 15px;
+    width: 150px;
+    outline: none;
+    margin-bottom: 50px;
+    
+}
+
+main section.instructors
+{
+    width: 90%;
+    height: 600px;
+}
+
+main section.instructors h2
+{
+    text-align: center;
+    color: #000099;
+    font-family: cursive;
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+main section.instructors div.hamdy,.hamza
+{
+    margin-top:55px;
+    border: 3px dashed #e65c00;
+    height: 380px;
+    background: #eee;
+    border-radius: 30px;
+    z-index: 1;
+    
+   
+}
+main section.instructors div.hamdy
+{
+    width: 42%;
+    float: left;
+    margin-left: 120px;
+    
+    
+    
+   
+}
+main section.instructors div.hamdy img
+{
+    
+    margin-top: -140px;
+    margin-left: -4.5;
+    border-bottom-right-radius: 10px;
+   
+}
+
+
+main section.instructors div.hamdy h3
+{
+    padding-top: -280px;
+    
+    color: #000099;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left:230 ;
+}
+main section.instructors div.hamdy ul
+{
+    list-style: square;
+}
+main section.instructors div.hamdy ul li
+{
+    font-size: 22px;
+    margin-left: 210px
+}
+main section.instructors div.hamdy .font
+{
+    
+    margin-left: 225
+    
+}
+main section.instructors div.hamdy .font i
+{
+    padding-left: 8px;
+}
+main section.instructors div.hamdy .font i:hover
+{
+    cursor: pointer;
+    
+}
+
+
+main section.instructors div.hamza
+{
+    width: 42%;
+    float: right;
+    
+    
+}
+main section.instructors div.hamza img
+{
+   
+    margin-top: -120px;
+    margin-right:-4.5;
+    float: right;
+    border-bottom-left-radius: 20px;
+    z-index: 100;
+   
+}
+
+main section.instructors div.hamza h3 
+{
+     padding-top: 120px;
+    text-align: center;
+    color: #000099;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left:-290
+}
+main section.instructors div.hamza ul
+{
+    list-style: square;
+     
+   
+}
+main section.instructors div.hamza ul li
+{
+    font-size: 22px;
+    
+}
+main section.instructors div.hamza .font
+{
+    
+    margin-left:15
+}
+main section.instructors div.hamza .font i
+{
+    padding-left: 8px;
+}
+main section.instructors div.hamza .font i:hover
+{
+    cursor: pointer;
+    
+}
+
+
+/*foooooter*/
+
+footer section.top
+{
+    width: 100%;
+    height: 120px;
+    background: #eee;
+    padding-bottom: 30;
+    
+    
+}
+footer section.top h2
+{
+    
+    float: left;
+    padding-top: 12;
+    padding-left: 50;
+    font-size: 30;
+    color: #000;
+    font-weight: bold;
+    
+    
+}
+footer section.top .info
+{
+   padding-left: 550px;
+   font-size: 18px;
+    padding-top: 4px
+}
+footer section.top .fontfoot
+{
+    float: right;
+    margin-top: -90;
+    margin-right: 50px;
+}
+footer section.top .fontfoot h3
+{
+    padding-left: 50
+}
+footer section.top .fontfoot i
+{
+    padding-left: 8px;
+}
+footer section.top span
+{
+    color:#e65c00;
+}
+footer section.top span:hover
+{
+    cursor: pointer;
+}
+
+footer section.top .fontfoot i:hover
+{
+    cursor: pointer;
+}
+
+
+
+footer section.bottom
+{
+    width: 100%;
+    height: 40px;
+    background: #212331;
+    color: #fff;
+    margin-top: -15px;
+    text-align: center;
+    padding-top: 3;
+    
+}
+footer section.bottom span
+{
+    color: #e65c00;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
